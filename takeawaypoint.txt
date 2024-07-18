@@ -1,0 +1,51 @@
+In package json and type:module, if we do so js will support import export feature.
+
+Frontend request backend to:
+C: create => post
+R: read => get
+U: update => patch
+D: delete => delete
+
+Making api means frontend request backend and backend does the task according to the request.
+
+url: localhost:5000/trainees/123?name=priya&age=30
+url: route?query
+route= baseurl+ route params
+
+
+Mongo Database
+we have to define structure of data
+define array(model)
+name object
+define object(Schema)
+
+
+Rules of model
+variable name must be same as model name 
+model name first letter always be capital 
+model name must be singular
+
+
+Crud Sequence
+Schema
+model
+controller
+router
+index
+
+
+
+HTTP status code
+100-199: Informational Response
+200-299: Successful Response
+300-399: Redirection message
+400-499: Clinet error Response
+500-599:Server error Response
+
+200:OK
+201:create
+400:Bad request
+401:unauthorized
+403:Forbidden
+404:Not Found
+500:Internal Server Error
